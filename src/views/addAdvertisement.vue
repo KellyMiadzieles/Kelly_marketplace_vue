@@ -243,7 +243,9 @@ export default {
             console.log(response);
             this.categoryResponse = response.data
           })
-    }
+
+}
+
   },
   mounted() {
     this.reset();
