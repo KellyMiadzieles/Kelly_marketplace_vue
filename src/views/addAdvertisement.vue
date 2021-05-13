@@ -51,7 +51,6 @@
               </div>
             </div>
 
-
             <br>
             <br>
             <h3>Title</h3>
@@ -214,11 +213,6 @@ export default {
       this.save(formData);
     },
 
-    /*    'addPictureButton': function () {
-          this.$http.post('/api/addPicture/' ,{
-
-              });
-        },*/
     'createAdvertisementButton': function () {
       this.$http.post('/api/createAdvertisement/', {
             title: this.title,
